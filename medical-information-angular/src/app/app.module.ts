@@ -10,6 +10,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
+import { MatMenuModule } from '@angular/material/menu';
 
 import { NavbarComponent } from './layout/navbar/navbar.component';
 import { DoctorComponent } from './doctor/doctor.component';
@@ -25,6 +26,7 @@ import { AppRoutingModule } from './app-routing.module';
     MatIconModule,
     MatSidenavModule,
     MatListModule,
+    MatMenuModule,
     BrowserAnimationsModule,
     MatToolbarModule,
     AppRoutingModule,

@@ -18,6 +18,9 @@ a {
 .content-area {
   padding: 0 100px;
 }
+.align-v-middle {
+  vertical-align: middle;
+}
 
 @media (max-width: 959px) {
   .content-area {

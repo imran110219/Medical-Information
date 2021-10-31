@@ -47,12 +47,17 @@ mat-toolbar {
   border-radius: 15px;
   transition: background-color 0.3s;
   font-size: 13px;
+  text-transform: uppercase;
 }
 
 .main-nav-anchor:hover,
 .main-nav-anchor:active {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid #fff;
+  background-color: rgba(0, 0, 0, 0.3);
   transition-timing-function: ease;
-  color: #000;
+  color: #fff;
+}
+
+.sub-menu a {
+  font-weight: bold !important;
+  text-transform: uppercase !important;
 }

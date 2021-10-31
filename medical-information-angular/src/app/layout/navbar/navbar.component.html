@@ -49,6 +49,23 @@
             <li>
               <a routerLink="doctor" class="main-nav-anchor">Doctor</a>
             </li>
+            <li>
+              <a routerLink="hospital" class="main-nav-anchor">Hospital</a>
+            </li>
+            <li>
+              <a routerLink="contact" class="main-nav-anchor">Contact</a>
+            </li>
+            <li>
+              <a class="main-nav-anchor" [matMenuTriggerFor]="menu"
+                ><mat-icon class="align-v-middle"
+                  >supervised_user_circle</mat-icon
+                ><mat-icon class="align-v-middle">arrow_drop_down</mat-icon>
+              </a>
+              <mat-menu #menu="matMenu" class="sub-menu">
+                <a routerLink="profile" mat-menu-item>Profile</a>
+                <a routerLink="" mat-menu-item>Logout</a>
+              </mat-menu>
+            </li>
           </ul>
         </div>
       </mat-toolbar>
